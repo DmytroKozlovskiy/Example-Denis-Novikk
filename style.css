@@ -1,0 +1,100 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 20px 0;
+  margin: 0;
+  gap: 30px;
+  border-bottom: 1px solid #000;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  transition: font-weight 0.3s, color 0.3s;
+}
+
+.navigation li a:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.hero {
+  text-align: center;
+  justify-content: center;
+}
+
+.about {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about p {
+  width: 400px;
+  align-items: center;
+}
+
+
+.skills {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills p {
+  align-items: center;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio>div:not(:first-child) {
+  margin-bottom: 20px;
+}
+
+.portfolio img {
+  width: 970px;
+  height: 550px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts button {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
