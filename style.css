@@ -14,7 +14,6 @@ body {
 
 .navigation li a {
   text-decoration: none;
-  color: black;
   font-weight: 400;
   transition: font-weight 0.3s, color 0.3s;
 }
@@ -97,4 +96,10 @@ body {
   border-radius: 10px;
   background-color: black;
   color: white;
+}
+.contacts a img {
+  transition: opacity 0.3s ease-in-out;
+}
+.contacts a img:hover {
+  opacity: 0.5;
 }
